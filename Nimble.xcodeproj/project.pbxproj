@@ -1984,7 +1984,7 @@
 				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
 				INFOPLIST_FILE = Sources/Nimble/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -2023,7 +2023,7 @@
 				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
 				INFOPLIST_FILE = Sources/Nimble/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -2055,7 +2055,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = Tests/NimbleTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -2075,7 +2075,7 @@
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Tests/NimbleTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -2127,7 +2127,7 @@
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 9.0;
+				TVOS_DEPLOYMENT_TARGET = 12.0;
 			};
 			name = Debug;
 		};
@@ -2169,7 +2169,7 @@
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 9.0;
+				TVOS_DEPLOYMENT_TARGET = 12.0;
 			};
 			name = Release;
 		};
@@ -2190,7 +2190,7 @@
 				PRODUCT_NAME = NimbleTests;
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 9.0;
+				TVOS_DEPLOYMENT_TARGET = 12.0;
 			};
 			name = Debug;
 		};
@@ -2214,7 +2214,7 @@
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 9.0;
+				TVOS_DEPLOYMENT_TARGET = 12.0;
 			};
 			name = Release;
 		};
@@ -2241,7 +2241,7 @@
 					"@executable_path/../Frameworks",
 					"@loader_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				METAL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -2280,7 +2280,7 @@
 					"@executable_path/../Frameworks",
 					"@loader_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				METAL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -2313,7 +2313,7 @@
 					"@executable_path/../Frameworks",
 					"@loader_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				METAL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "net.jeffhui.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = NimbleTests;
@@ -2334,7 +2334,7 @@
 					"@executable_path/../Frameworks",
 					"@loader_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				METAL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = "net.jeffhui.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = NimbleTests;
